@@ -1,8 +1,11 @@
+//Nick Warren
+//CSE 002
 
 
-// establish the class
+// create the class
 public class HelloWorld{
     
+//required for all java programs
     
 public static void main(String[] args){
     
@@ -16,9 +19,9 @@ public static void main(String[] args){
     System.out.println ("#######################");
     System.out.println ("#######################");
      
-   //
+   // clarify this is a test program, print message
    
-   System.out.println ("test"); // clarify this is a test program, print message
+   System.out.println ("test"); 
    
 
 }
