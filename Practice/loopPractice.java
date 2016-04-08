@@ -1,3 +1,16 @@
+/* This program will print the output:
+
+
+1
+12
+123
+1234
+12345
+
+
+*/
+
+
 public class loopPractice{ 
 
 public static void main (String [] args) {

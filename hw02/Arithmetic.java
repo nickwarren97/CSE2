@@ -1,7 +1,14 @@
+//Nick Warren 
+//CSE 002
+//Hw #2 Arithmetic.java
+
+//define class
 
 public class Arithmetic {
     
-    public static void main(String [ ] args) {
+    //required for all java programs
+    
+     public static void main(String [ ] args) {
         
 //Number of pairs of pants
 
@@ -31,24 +38,17 @@ double beltCost = 33.99;
 
 double paSalesTax = 0.06;
 
-
-
-
-
-
-
 //total cost of pants
 
 double totalCostOfPants= (numPants * pantsPrice);
 
 //total cost of shirts
 
-double totalCostofShirts= (numShirts * shirtPrice;
+double totalCostOfShirts= (numShirts * shirtPrice);
 
 //total cost of belts
 
-double totalCostofBelts= (numBelts * beltCost);
-
+double totalCostOfBelts= (numBelts * beltCost);
 
 //tax on pants
 
@@ -60,7 +60,7 @@ double totalTaxOnShirts= (totalCostOfShirts * paSalesTax);
 
 //tax on belt
 
-double totalTaxOnBelts= (totalCostofBelts * paSalesTax);
+double totalTaxOnBelts= (totalCostOfBelts * paSalesTax);
 
 //total before tax
 
@@ -73,11 +73,39 @@ double totalTax= (totalBeforeTax * paSalesTax);
 //Total after tax
 
 double totalAfterTax= (totalBeforeTax + totalTax);
-//System.out.println(""+variable);
-//System.out.printf("$ %.2f",variable);
 
-}
 
+//From this point on, the print statements will be printing the calculations
+
+
+System.out.println("Total Cost of Pants Before Tax: " + "$" + totalCostOfPants);
+
+System.out.println("Total Cost of Shirts Before Tax: " + "$" + totalCostOfShirts);
+
+System.out.println("Total Cost of Belts Before Tax: " + "$" + totalCostOfBelts);
+
+
+
+System.out.println("Total Tax On Pants: " + "$" + totalTaxOnPants);
+
+System.out.println("Total Tax On Shirts: " + "$" + totalTaxOnShirts);
+
+System.out.println("Total Tax On Belts: " + "$" + totalTaxOnBelts);
+
+
+
+System.out.println("Total Before Tax: " + "$" + totalBeforeTax);
+
+System.out.println(" Total Tax On Transaction:" + "$" + (totalBeforeTax * paSalesTax));
+
+System.out.println("Total After Tax: " + "$" + totalAfterTax);
+
+
+
+
+
+    }
+    
 }  
 
 

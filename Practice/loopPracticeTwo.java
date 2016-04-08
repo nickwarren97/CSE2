@@ -1,3 +1,20 @@
+/* This program will create the output :
+
+
+         9
+        8
+       7
+      6
+     5
+    4
+   3
+  2
+ 1
+0
+
+*/
+
+
 public class loopPracticeTwo {
     
     public static void main(String [] args) { 
