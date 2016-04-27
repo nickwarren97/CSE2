@@ -100,10 +100,6 @@ System.out.println(" Total Tax On Transaction:" + "$" + (totalBeforeTax * paSale
 
 System.out.println("Total After Tax: " + "$" + totalAfterTax);
 
-
-
-
-
     }
     
 }  
