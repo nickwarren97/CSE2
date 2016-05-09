@@ -6,43 +6,37 @@
 //This program will perform linear and binary searches on a number of arrays.
 
 //import scanner
-import java.util.Scanner;
 
-//begin class
-public class Search {
-    
-    //required for all java programs
-    public static void main(String [] args) {
-    
-     Scanner scanner1 = new Scanner(System.in);
-            
-     System.out.println ("Please enter the number you wish to find in the array");
-            
-     int searchingFor = scanner1.nextInt();
-       
-        int[] array1 = new int [100];
-       
-        for(int i = 0; i < array1.length; i++) {
-           
-            array1[i] = (int)(Math.random() * 100);
-           
-            System.out.println(array1[i] + "  ");
-          
-            
-            if (searchingFor == array1[i]) {
-                
-                System.out.println ("Found the number in the " + i +"th place");
-                
-                if (searchingFor != array1[i]) {
-                    
-                    System.out.println ("Sorry, that value does not exist in this array");
-                }
-                
-                
-                
-                
-            }
-            
-        }
-    }
+import java.util.Scanner;
+ 
+class LinearSearch 
+{
+  public static void main(String args[])
+  {
+    int c, n, search, array[];
+ 
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter number of elements");
+    n = in.nextInt(); 
+    array = new int[n];
+ 
+    System.out.println("Enter " + n + " integers");
+ 
+    for (c = 0; c < n; c++)
+      array[c] = in.nextInt();
+ 
+    System.out.println("Enter value to find");
+    search = in.nextInt();
+ 
+    for (c = 0; c < n; c++)
+    {
+      if (array[c] == search)     /* Searching element is present */
+      {
+         System.out.println(search + " is present at location " + (c + 1) + ".");
+          break;
+      }
+   }
+   if (c == n)  /* Searching element is absent */
+      System.out.println(search + " is not present in array.");
+  }
 }

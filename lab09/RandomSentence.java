@@ -66,10 +66,153 @@ else if (randomNum == 8) {
 else if (randomNum == 9) { 
     System.out.println(" The " + adjectiveArray [9]);
         }
+/////////////////
 
+
+ String [ ] nonPrimaryNounArray = new String[10];
+        adjectiveArray [0] = "wood";
+        adjectiveArray [1] = "blue";
+        adjectiveArray [2] = "money";
+        adjectiveArray [3] = "spaghetti";
+        adjectiveArray [4] = "fish";
+        adjectiveArray [5] = "purple";
+        adjectiveArray [6] = "salt";
+        adjectiveArray [7] = "laughter";
+        adjectiveArray [8] = "corn";
+        adjectiveArray [9] = "butter";
+
+    // nextInt is normally exclusive of the top value,
+    // so add 1 to make it inclusive
+    int randomNum = (int)(Math.random() * 9);
+
+if (randomNum == 0) {
+    System.out.println(" The " + adjectiveArray [0]);
+}
+else if (randomNum == 1) { 
+    System.out.println(" The " + adjectiveArray [1]);
+}
+else if (randomNum == 2) { 
+    System.out.println(" The " + adjectiveArray [2]);
+}
+else if (randomNum == 3) { 
+    System.out.println(" The " + adjectiveArray [3]);
+}
+else if (randomNum == 4) { 
+    System.out.println(" The " + adjectiveArray [4]);
+}
+else if (randomNum == 5) { 
+    System.out.println(" The " + adjectiveArray [5]);
+}
+else if (randomNum == 6) { 
+    System.out.println(" The " + adjectiveArray [6]);
+}
+else if (randomNum == 7) { 
+    System.out.println(" The " + adjectiveArray [7]);
+}
+else if (randomNum == 8) { 
+    System.out.println(" The " + adjectiveArray [8]);
+}
+else if (randomNum == 9) { 
+    System.out.println(" The " + adjectiveArray [9]);
     }
 
-   //Main method required for all java programs
+/////////////////////////////////
+
+ String [ ] pastTenseVerbsArray = new String[10];
+        adjectiveArray [0] = "walked";
+        adjectiveArray [1] = "climbed";
+        adjectiveArray [2] = "flew";
+        adjectiveArray [3] = "ate";
+        adjectiveArray [4] = "smelled";
+        adjectiveArray [5] = "created";
+        adjectiveArray [6] = "attracted";
+        adjectiveArray [7] = "rode";
+        adjectiveArray [8] = "enjoyed";
+        adjectiveArray [9] = "desired";
+
+    // nextInt is normally exclusive of the top value,
+    // so add 1 to make it inclusive
+    int randomNum = (int)(Math.random() * 9);
+
+if (randomNum == 0) {
+    System.out.println(" The " + adjectiveArray [0]);
+}
+else if (randomNum == 1) { 
+    System.out.println(" The " + adjectiveArray [1]);
+}
+else if (randomNum == 2) { 
+    System.out.println(" The " + adjectiveArray [2]);
+}
+else if (randomNum == 3) { 
+    System.out.println(" The " + adjectiveArray [3]);
+}
+else if (randomNum == 4) { 
+    System.out.println(" The " + adjectiveArray [4]);
+}
+else if (randomNum == 5) { 
+    System.out.println(" The " + adjectiveArray [5]);
+}
+else if (randomNum == 6) { 
+    System.out.println(" The " + adjectiveArray [6]);
+}
+else if (randomNum == 7) { 
+    System.out.println(" The " + adjectiveArray [7]);
+}
+else if (randomNum == 8) { 
+    System.out.println(" The " + adjectiveArray [8]);
+}
+else if (randomNum == 9) { 
+    System.out.println(" The " + adjectiveArray [9]);
+    
+    ///////////////////////
+    
+     String [ ] nonPrimaryNounsArray = new String[10];
+        adjectiveArray [0] = "wood";
+        adjectiveArray [1] = "red";
+        adjectiveArray [2] = "money";
+        adjectiveArray [3] = "intelligence";
+        adjectiveArray [4] = "fish";
+        adjectiveArray [5] = "black";
+        adjectiveArray [6] = "education";
+        adjectiveArray [7] = "laughter";
+        adjectiveArray [8] = "corn";
+        adjectiveArray [9] = "courage";
+
+    // nextInt is normally exclusive of the top value,
+    // so add 1 to make it inclusive
+    int randomNum = (int)(Math.random() * 9);
+
+if (randomNum == 0) {
+    System.out.println(" The " + adjectiveArray [0]);
+}
+else if (randomNum == 1) { 
+    System.out.println(" The " + adjectiveArray [1]);
+}
+else if (randomNum == 2) { 
+    System.out.println(" The " + adjectiveArray [2]);
+}
+else if (randomNum == 3) { 
+    System.out.println(" The " + adjectiveArray [3]);
+}
+else if (randomNum == 4) { 
+    System.out.println(" The " + adjectiveArray [4]);
+}
+else if (randomNum == 5) { 
+    System.out.println(" The " + adjectiveArray [5]);
+}
+else if (randomNum == 6) { 
+    System.out.println(" The " + adjectiveArray [6]);
+}
+else if (randomNum == 7) { 
+    System.out.println(" The " + adjectiveArray [7]);
+}
+else if (randomNum == 8) { 
+    System.out.println(" The " + adjectiveArray [8]);
+}
+else if (randomNum == 9) { 
+    System.out.println(" The " + adjectiveArray [9]);
+
+ 
     public static void main(String [ ] args) {
         adjectives();
         

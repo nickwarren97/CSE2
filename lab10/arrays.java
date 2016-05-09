@@ -23,6 +23,8 @@ public class arrays {
         
         String [ ] students = new String [ numberOfStudents ];
         
+        Systemout.println("Please enter names for those students in the format (First Name,Last Name):")
+        
     }
     
 }
